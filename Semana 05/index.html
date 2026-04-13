@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Web Elegante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">Mi Proyecto</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href='#servicios'>Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Carrusel -->
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://picsum.photos/1200/500?1" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Bienvenido</h3>
+        <p>Diseño moderno y elegante</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1200/500?2" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Innovación</h3>
+        <p>Soluciones tecnológicas</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://picsum.photos/1200/500?3" class="d-block w-100">
+      <div class="carousel-caption">
+        <h3>Calidad</h3>
+        <p>Resultados profesionales</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Servicios -->
+<section id="servicios" class="container my-5">
+  <h2 class="text-center mb-4">Servicios</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card shadow">
+        <div class="card-body text-center">
+          <h5>Desarrollo Web</h5>
+          <p>Creación de páginas modernas y responsivas.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow">
+        <div class="card-body text-center">
+          <h5>Base de Datos</h5>
+          <p>Gestión eficiente de información.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow">
+        <div class="card-body text-center">
+          <h5>Seguridad</h5>
+          <p>Protección y control de sistemas.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galería -->
+<section id="galeria" class="bg-light py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Galería</h2>
+    <div class="row">
+      <div class="col-md-4 mb-3"><img src="https://picsum.photos/400/300?4" class="img-fluid rounded"></div>
+      <div class="col-md-4 mb-3"><img src="https://picsum.photos/400/300?5" class="img-fluid rounded"></div>
+      <div class="col-md-4 mb-3"><img src="https://picsum.photos/400/300?6" class="img-fluid rounded"></div>
+    </div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section id="contacto" class="container my-5">
+  <h2 class="text-center mb-4">Contacto</h2>
+  <form>
+    <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Nombre">
+    </div>
+    <div class="mb-3">
+      <input type="email" class="form-control" placeholder="Correo">
+    </div>
+    <div class="mb-3">
+      <textarea class="form-control" rows="4" placeholder="Mensaje"></textarea>
+    </div>
+    <div class="text-center">
+      <button class="btn btn-dark">Enviar</button>
+    </div>
+  </form>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>© 2026 - Proyecto Usando Boobstarp</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

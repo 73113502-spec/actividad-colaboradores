@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.5);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    margin-top: 20px;
+}
+
+section {
+  scroll-margin-top: 80px;
+}
